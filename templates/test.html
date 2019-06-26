@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>监控操作票生成程序</title>
+</head>
+<body>
+    <div>
+        <form action="/test/" method="POST">
+            <div>
+                <h3>监控操作票生成程序</h3>
+                <p>请输入荆门地调或者荆门地区省调管辖设备开关双编号</p>
+                <p>请不要输入荆门地区县调管辖设备及地调许可县调设备</p>
+            </div>
+            <div>
+                <label for="bh">开关双编号</label>
+                <input type="text" name="bh" id="bh" />
+            </div>
+            <div>
+                <input type="radio" name="operate" value="合上" checked>合上
+                <br>
+                <input type="radio" name="operate" value="断开">断开  
+            </div>
+            <div>
+                <input type="submit" value="提交" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>
